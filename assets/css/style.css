@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.divHeader {
+    width: 100%;
+}
+.header, .footer {
+    background-color: #263238;
+    color: #feca1b;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: inline-flex;
+}
+.col-md-3 {
+    text-align: center;
+    text-align: -webkit-center;
+}
+.styleContenedor {
+    margin-top: 130px;
+}
+.footer {
+    font-size: 30px;
+    margin-top: 30px;
+}
