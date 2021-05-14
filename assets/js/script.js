@@ -1,6 +1,10 @@
 // Consumir API
 const API = "https://pokeapi.co/api/v2/pokemon?limit=20&offset=00";
 
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 const getData = (api) => {
     return fetch(api)
     .then((response) => response.json())
@@ -32,12 +36,12 @@ const fetchImage = (data) => {
 // Dibujar cards de personajes
 const displayName = (data) => {
     html = `
-    <div class="col-md-3">
+    <div class="col">
         <div class="card poke-image" id="poke-image" style="width: 18rem;">
         <img src="${data.sprites.other["official-artwork"].front_default}" class="card-img-top" alt=""></img>
             <div class="card-body">
-                <h5 class="card-title">${data.name}</h5>
-                <p class="card-text"><strong>Peso </strong>${data.weight}</p>
+                <h5 class="card-title">${capitalize(data.name)}</h5>
+                <p class="card-text"><strong>Peso: </strong>${data.weight} gr</p>
             </div>
         </div>
     </div>

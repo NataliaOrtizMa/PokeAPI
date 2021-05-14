@@ -12,16 +12,21 @@
 ul {
     list-style: none;
     padding-left: 0;
-    display: inline-flex;
+    /* display: inline-flex; */
 }
-.col-md-3 {
+ul li {
+    display: inline-flex
+}
+.col{
     text-align: center;
     text-align: -webkit-center;
 }
 .styleContenedor {
-    margin-top: 130px;
+    margin-top: 200px;
 }
 .footer {
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 30px;
+    padding-top: 20px;
+    height: 70px;
 }
