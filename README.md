@@ -1,5 +1,6 @@
 # PokeAPI
-Web repository of Poke API web page
+Web repository of Poke API web page.
+
 Click [here](https://nataliaortizma.github.io/PokeAPI/) to go to the web page.
 
 ## Features
@@ -11,6 +12,7 @@ Click [here](https://nataliaortizma.github.io/PokeAPI/) to go to the web page.
 
 ## Description
 Web page which brings 20 Pokemons with its respective image, name and weight.
+
 It has buttons of Prev and Next page, to fetch more searh results.
 
-Developed for the MEAN Fullstack Bootcamp of Accenture - KeyCode
+> Developed for the MEAN Fullstack Bootcamp of Accenture - KeyCode
