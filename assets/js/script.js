@@ -6,7 +6,7 @@ const getData = (api) => {
     .then((response) => response.json())
     .then((json) => {
         fetchImage(json),
-        paginacion(json.prev, json.next)
+        paginacion(json.previous, json.next)
     })
     .catch((error) => {
         console.log("Fetch Data Error: ", error)
